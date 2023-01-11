@@ -1,6 +1,6 @@
 server:
   servlet:
-    context-path: /api/v2
+    context-path: /api
 spring:
   datasource:
     hikari:
