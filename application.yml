@@ -1,0 +1,23 @@
+server:
+  servlet:
+    context-path: /api
+spring:
+  datasource:
+    hikari:
+      auto-commit: false
+  rabbitmq:
+    host: 103.173.255.221
+    username: admin
+    password: huynhngocthuat
+  main:
+    banner-mode: off
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  thymeleaf:
+    mode: HTML
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
